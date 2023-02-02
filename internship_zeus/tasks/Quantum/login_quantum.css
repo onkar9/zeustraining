@@ -1,0 +1,312 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    width: 1024px;
+    height: 798px;
+    
+}
+
+.header{
+    display: flex;
+    width: 1024px;
+    height: 60px;
+    background-image: url("../Quantum/Quantum_screens/header\ pattern\ svg.svg");
+    border-bottom: 2px solid #3AC7EC;
+}
+
+#logo{
+    margin-top: 11px;
+    margin-left:  24px;
+    width: 134px;
+    height: 36px;
+    background-image: url("../Quantum/Quantum_screens/logo\ used\ in\ header.svg");
+
+}
+.loginContainer{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.loginbox{
+    width: 488px;
+    height: 550px;
+    padding: 22px 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* border: 1px solid #FFFFFF; */
+    border-top:4px solid #3AC7EC;
+    opacity: 1;
+    
+}
+
+
+.title{
+    display: flex;
+}
+
+
+.backbutton{
+    background-image: url("/tasks/Quantum_screens/icons/back.svg");
+    /* margin-top: 22px; */
+    /* margin-left: 32px; */
+    width: 17px;
+    height: 26px;
+    text-align: left;
+    font: normal normal normal 26px/28px Material-Design-Iconic-Font;
+    letter-spacing: 0.65px;
+    color: #1F7A54;
+    opacity: 1;
+    margin-left: -3px;
+
+}
+
+.text{
+    /* margin-top: 20px;
+    margin-left: 72px; */
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font: normal normal medium 24px/28px Quicksand;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+
+.radiobutton{
+    display: flex;
+    margin-top: 20px;
+}
+
+.buttonon{
+    background-image: url("/tasks/Quantum_screens/icons/radio-button-on.svg");
+    margin-top: 34px;
+    margin-left: 32px;
+    width: 20px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 24px/17px Material-Design-Iconic-Font;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+
+}
+.district{
+    margin-top: 34px;
+    margin-left: 8px;
+    width: 53px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #333333;
+
+}
+.buttonoff{
+    background-image: url("/tasks/Quantum_screens/icons/radio-button-off.svg");
+    margin-top: 34px;
+    margin-left: 32px;
+    width: 20px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 24px/17px Material-Design-Iconic-Font;
+    letter-spacing: 0px;
+    color: #1F7A54;
+
+}
+.school{
+    margin-top: 34px;
+    margin-left: 8px;
+    width: 148px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 16px/20px Quicksand;
+    letter-spacing: 0px;
+    color: #333333;
+
+}
+
+.select_box .select_box_in{
+    display: flex;
+    flex-direction: column;
+    margin:20px 0px;
+}
+.select_box label{
+    opacity: 0.75;
+}
+.select_box .select_box_in select{
+    background: url('./Quantum_screens/icons/arrow-down.svg');
+    background-position-x:100%;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    padding:0px 0px 4px 0px;
+    border-top:    0px;
+    border-right:  0px;
+    border-bottom: 1px solid rgba(60, 60, 60, 0.75);
+    border-left:   0px;
+}
+.select_box label{
+    font-size: 7px; 
+}
+.user_pass{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.user_pass .username input,.user_pass .password input{
+
+    margin:15px 0;
+    border-top:    0px;
+    border-right:  0px;
+    border-bottom: 1px solid rgba(60, 60, 60, 0.75);
+    border-left:   0px;
+    width: 100%;
+    
+}
+.user_pass .user_pass_input{
+    padding:5px 0px;
+}
+.user_pass .user_pass_link{
+    font-size: 14px;
+    float: right;
+    color: #1F7A54;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.user_pass .password .user_pass_input{
+    background: url('./Quantum_screens/icons/preview.svg');
+    background-position-x:100%;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+}
+input[type=checkbox] {
+    accent-color: #1F7A54;
+    padding:2px;
+    width: 17px;
+    height: 17px;
+  }
+.log_in{
+    width: 100%;
+    height: 78px;
+    display: grid;
+    place-items: center;
+    
+}
+.log_in_button{
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    opacity: 1;
+    width: 216px;
+height: 40px;
+border:0px;
+}
+.links_bottom{
+    margin-top:50px;
+}
+.choice {
+	display: none;
+}
+
+.radio-button-label {
+	/* width: 9rem; */
+	height: 2rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	cursor: pointer;
+}
+
+.radio-button-icon {
+	width: 1rem;
+	height: 1rem;
+	margin-right: 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+	/* border: 1px dashed grey; */
+}
+
+.radio-button-icon::after,
+.radio-button-icon::before {
+	grid-column: 1;
+	grid-row: 1;
+	content: "";
+	display: block;
+	border-radius: 100%;
+}
+
+.radio-button-icon::before {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #279e7a;  
+}
+.icon2:after{
+    /* content:''; */
+    width: 64%;
+	height: 64%;
+	background-color: #279e7a;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+
+
+.radio-button-icon:after {
+	width: 64%;
+	height: 64%;
+	/* background-color: #279e7a; */
+	opacity: 1;
+	transition: 0.3s;
+}
+
+
+.choice:checked + .radio-button-label .radio-button-icon::after {
+	opacity: 1;
+}
+
+
+.links_bottom a{
+    text-decoration: none;
+    color: #3FD28B;
+}
+.links_bottom a:after {
+    content: '|';
+    padding: 0 6px;
+    color:black;
+  }
+
+  footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E0E1E1;
+    color:#616161;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+footer div,footer img{
+    padding: 10px;
+}  
+footer .copyright:before{
+    content:'|';
+    padding:10px;
+    color:black;
+    width: 10px;
+    height: 100%;
+
+}
+.links_bottom a:last-child:after {
+    content: '';
+  }

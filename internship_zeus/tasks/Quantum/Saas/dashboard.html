@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashboardSaas.css" />
+    <title>QuantumDashboardUsingSaas</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <img src="/internship_zeus/tasks/Quantum/Quantum_screens/logo used in header.svg" alt="Bulb - Header Logo">
+            <div class="navbar">
+                <div class="navbar-middle">
+                    <a class="navbar-active">Dashboard</a>
+                    <a>Content</a>
+                    <a>Users</a>
+                    <a>Report</a>
+                    <a>Admin</a>
+                </div>
+                <div class="notification">
+                    <img class="navbar-icon" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/alerts.svg" alt="Alert Icon">
+                    <span class="badge"> 2 </span>
+                </div>
+                <div class="notification">
+                    <img class="navbar-icon" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/announcements.svg" alt="Announcements Icon">
+                    <span class="badge"> 1 </span>
+                </div>
+                <img class="user-avatar navbar-icon" src="/internship_zeus/tasks/Quantum/Quantum_screens/images/mosh.jpg.png" alt="User Avatar">
+                <img class="hamburger-icon navbar-icon" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/hamburger-menu.svg" alt="Hambuger Menu Icon">
+            </div>    
+        </div>
+        <div class="main-content">
+            <div class="menu-header flex-row">
+                <div class="courses">
+                    <img class="menu-header-icon" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/courses.svg" alt="Courses Icon">
+                    <span class="menu-header-txt strong"> 4 </span>
+                    <span class="menu-header-txt"> Courses</span>
+                </div>
+                <div class="classes">
+                    <img class="menu-header-icon" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/classes.svg" alt="Classes Icon">
+                    <span class="menu-header-txt strong"> 4 </span>
+                    <span class="menu-header-txt"> Classes</span>
+                </div>
+            </div>
+            <div class="filter-div flex-row">
+                <div class="filter-left">
+                    <p>Showing 4 of 4 Courses</p>
+                </div>
+                <div class="filter-right flex-row">
+                    <p> Sort By: </p>  
+                    <select>  
+                    <option value = "Course Name"> Course Name   </option>  
+                    <option value = "Acceleration"> Acceleration   </option>  
+                    <option value = "Displacement"> Displacement  </option>  
+                    <option value = "Velocity"> Velocity  </option>  
+                    </select>
+                    <img class="sort-icon" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/sort.svg" alt="Sort Icon">    
+                </div>
+            </div>
+            <div class="main-body">
+                    <div class="card">
+                        <div class="flex-row">
+                            <img class="card-image" src="/internship_zeus/tasks/Quantum/Quantum_screens/images/imageMask-1.svg" alt="Acceleration"> 
+                            <div class="card-body">
+                                    <p id="topic-name">Acceleration</p>
+                                <div class="sub-grade flex-row">
+                                    <p class="subject">Physics</p>
+                                    <p class="vertical-line"> &#124;</p>
+                                    <p class="grade">Grade 7 <span class="green"> +2 </span></p>
+                                </div>
+                                <div class="syllabus flex-row">
+                                    <p><span class="strong"> 4 </span>Units</p>
+                                    <p><span class="strong"> 18 </span>Lessons</p>
+                                    <p><span class="strong"> 24 </span>Topics</p>
+                                </div>
+                                <div class="teacher-dropdown">
+                                    <select>  
+                                        <option value = "Mr. Frank's Class B"> Mr. Frank's Class B</option>  
+                                    </select>
+                                </div>
+                                <div class="course-dates flex-row">
+                                    <p>50 Students</p>
+                                    <p class="vertical-line"> &#124;</p>
+                                    <p>21-Jan-2020 - 21-Aug-2020</p>
+                                </div>
+                            </div>
+                            <img id="favourite" src="Quantum_screens/icons/favourite.svg" alt="Favourite Icon">
+                        </div>
+                        <div class="card-footer">
+                            <img class="preview-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/preview.svg" alt="Preview Icon">
+                            <img class="manage-course-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/manage course.svg" alt="Manage Course Icon">
+                            <img class="grade-submission-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/grade submissions.svg" alt="Grade Submisssion Icon">
+                            <img class="reports-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/reports.svg" alt="Reports Icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flex-row">
+                            <img class="card-image" src="/internship_zeus/tasks/Quantum/Quantum_screens/images/imageMask-2.svg" alt="Displacement"> 
+                            <div class="card-body">
+                                    <p id="topic-name">Displacement, Velocity and Speed</p>
+                                <div class="sub-grade flex-row">
+                                    <p class="subject">Physics 2</p>
+                                    <p class="vertical-line"> &#124;</p>
+                                    <p class="grade">Grade 6 <span class="green"> +3 </span></p>
+                                </div>
+                                <div class="syllabus flex-row">
+                                    <p><span class="strong"> 2 </span>Units</p>
+                                    <p><span class="strong"> 15 </span>Lessons</p>
+                                    <p><span class="strong"> 20 </span>Topics</p>
+                                </div>
+                                <div class="teacher-dropdown">
+                                    <select class="option-disabled">  
+                                        <option value = "No Classes" > No Classes</option>  
+                                    </select>
+                                </div>
+                            </div>
+                            <img id="favourite" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/favourite.svg" alt="Favourite Icon">
+                        </div>
+                        <div class="card-footer">
+                            <img class="preview-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/preview.svg" alt="Preview Icon">
+                            <img class="manage-course-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/manage course.svg" alt="Manage Course Icon">
+                            <img class="grade-submission-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/grade submissions.svg" alt="Grade Submisssion Icon">
+                            <img class="reports-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/reports.svg" alt="Reports Icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flex-row">
+                            <img class="card-image" src="/internship_zeus/tasks/Quantum/Quantum_screens/images/imageMask.svg" alt="Beaker"> 
+                            <div class="card-body">
+                                    <p id="topic-name">Introduction to Biology: Microorganisms and how they affect...</p>
+                                <div class="sub-grade flex-row">
+                                    <p class="subject">Biology</p>
+                                    <p class="vertical-line"> &#124;</p>
+                                    <p class="grade">Grade 4 <span class="green"> +1 </span></p>
+                                </div>
+                                <div class="syllabus flex-row">
+                                    <p><span class="strong"> 5 </span>Units</p>
+                                    <p><span class="strong"> 16 </span>Lessons</p>
+                                    <p><span class="strong"> 22 </span>Topics</p>
+                                </div>
+                                <div class="teacher-dropdown">
+                                    <select>  
+                                        <option value = "All Classes"> All Classes</option>  
+                                    </select>
+                                </div>
+                                <div class="course-dates flex-row">
+                                    <p>300 Students</p>
+                                </div>
+                            </div>
+                            <img id="favourite" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/favourite.svg" alt="Favourite Icon">
+                        </div>
+                        <div class="card-footer">
+                            <img class="preview-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/preview.svg" alt="Preview Icon">
+                            <img class="manage-course-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/manage course.svg" alt="Manage Course Icon">
+                            <img class="grade-submission-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/grade submissions.svg" alt="Grade Submisssion Icon">
+                            <img class="reports-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/reports.svg" alt="Reports Icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <!-- <span class="card-validity"> Expired </span> -->
+                        <div class="flex-row">
+                            <img class="card-image" src="/internship_zeus/tasks/Quantum/Quantum_screens/images/imageMask-3.svg" alt="Bubbles"> 
+                            <div class="card-body">
+                                    <p id="topic-name">Introduction to High School Mathematics</p>
+                                <div class="sub-grade flex-row">
+                                    <p class="subject">Mathematics</p>
+                                    <p class="vertical-line"> &#124;</p>
+                                    <p class="grade">Grade 8 <span class="green"> +3 </span></p>
+                                </div>
+                                <div class="syllabus flex-row">
+                                    <p><span class="strong"> 4 </span>Units</p>
+                                    <p><span class="strong"> 18 </span>Lessons</p>
+                                    <p><span class="strong"> 24 </span>Topics</p>
+                                </div>
+                                <div class="teacher-dropdown">
+                                    <select>  
+                                        <option value = "Mr. Frank's Class A"> Mr. Frank's Class A</option>  
+                                    </select>
+                                </div>
+                                <div class="course-dates flex-row">
+                                    <p>44 Students</p>
+                                    <p class="vertical-line"> &#124;</p>
+                                    <p>14-Oct-2019 - 20-Oct-2020</p>
+                                </div>
+                            </div>
+                            <img id="favourite" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/favourite.svg" alt="Favourite Icon">
+                        </div>
+                        <div class="card-footer">
+                            <img class="preview-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/preview.svg" alt="Preview Icon">
+                            <img class="manage-course-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/manage course.svg" alt="Manage Course Icon">
+                            <img class="grade-submission-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/grade submissions.svg" alt="Grade Submisssion Icon">
+                            <img class="reports-img" src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/reports.svg" alt="Reports Icon">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-top">
+                <span> About</span>
+                <span class="vertical-line">&#124;</span>
+                <span> Contact Us</s>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="/internship_zeus/tasks/Quantum/Quantum_screens/icons/logo used in footer.svg" alt="Bulb - Footer Logo">
+                </div>
+                <p id="copyright"> Copyright &copy; 2022-23</p>
+                <p id="org-name"> Zeus System Pvt. Ltd.</p>
+                <p>All rights reserved</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+
+

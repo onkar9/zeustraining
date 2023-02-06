@@ -21,91 +21,90 @@ html, body{
         "h h h h h h h h h h h h"
         "c c c c c c c c c c c c"
         "f f f f f f f f f f f f";
-}
 
-.main-content{
-    grid-area: c;
-}
+    .main-content{
+        grid-area: c;
+    }
 
-
-/* -----------------------Header--------------------------- */
-.header{
+    /*Header*/
+    .header{
     grid-area: h;
-    background:transparent url(Quantum_screens/header\ pattern\ svg.svg) 0% 0%  padding-box;
+    background:transparent url(/internship_zeus/tasks/Quantum/Quantum_screens/header\ pattern\ svg.svg) 0% 0%  padding-box;
     opacity: 0.8;
     display: flex;
     align-items: center;
     border-bottom: 2px solid #31B9E4;
     padding: 10.5px 0 9.5px 24px;
-}
 
-.header > img{
-    width: 134px;
-    height: 36px;
-}
+    .header > img{
+        width: 134px;
+        height: 36px;
+    }
+    }
 
-
-/* -----------------------Footer------------------- */
-.footer{
+    /*Footer*/
+    .footer{
     grid-area: f;
     display: flex;
     flex-direction: column;
+
+    .footer-top{
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        color: #1F7A54;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    
+    .vertical-line{
+        margin: 0 10px 0 8px;
+        color: #0000001F;
+        height: 18px;
+    }
+    
+    .footer-bottom{
+        background-color: #E0E1E1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 0;
+        height: 24px;
+    }
+    
+    .footer-bottom > img{
+        width: 90px;
+        height: 24px;
+    }
+    
+    .footer-bottom > p{
+        color: #616161;
+        opacity: 1;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+    }
+    
+    .footer-logo{
+        border-right: 1px solid #0000001F;
+        margin: 0 16px;
+        padding-right: 16px;
+        height: 24px;
+    }
+    
+    #copyright{
+        margin-right: 8px;
+    }
+    
+    #org-name{
+        margin-right: 11px;
+        font-weight: bold;
+    }
+    }
 }
 
-.footer-top{
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    color: #1F7A54;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 500;
-}
-
-.vertical-line{
-    margin: 0 10px 0 8px;
-    color: #0000001F;
-    height: 18px;
-}
-
-.footer-bottom{
-    background-color: #E0E1E1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 0;
-    height: 24px;
-}
-
-.footer-bottom > img{
-    width: 90px;
-    height: 24px;
-}
-
-.footer-bottom > p{
-    color: #616161;
-    opacity: 1;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 400;
-}
-
-.footer-logo{
-    border-right: 1px solid #0000001F;
-    margin: 0 16px;
-    padding-right: 16px;
-    height: 24px;
-}
-
-#copyright{
-    margin-right: 8px;
-}
-
-#org-name{
-    margin-right: 11px;
-    font-weight: bold;
-}
 
 
 
@@ -151,6 +150,10 @@ html, body{
     border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
+.notification{
+
+}
+
 .navbar-icon{
     width: 21px;
     height: 24px;
@@ -187,7 +190,7 @@ html, body{
     height: 19px;
     font-size: 12px;
     line-height: 14px;
-  }
+}
 
 .badge{
     align-items: center;
@@ -306,8 +309,7 @@ html, body{
     display: flex;
     flex-direction: column;
     padding: 24px 16px 0 24px;
-    /* width: 75%; */
-    width: 476px;
+    width: 75%;
     margin: 0 auto;
 }
 
